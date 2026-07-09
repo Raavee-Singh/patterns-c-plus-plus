@@ -8,10 +8,10 @@ int main(){
         int j=n;
         while(j>=1){
             std::cout<<" "<<j<<" ";
-            j--;
+            j-=1;
         }
         std::cout<<std::endl;
-        i--;
+        i-=1;
     }
 
 }
