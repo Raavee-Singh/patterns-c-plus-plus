@@ -7,7 +7,6 @@ int main(){
     char ch='A';
     while(i<=n){
         int j=1;
-        
         while(j<=n){
             std::cout<<" "<<ch<<" ";
             j+=1;
@@ -16,4 +15,5 @@ int main(){
         std::cout<<std::endl;
         i+=1;
     }
+
 }
